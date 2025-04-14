@@ -1,8 +1,9 @@
 function log(msg)
     -- Log messages to the console
-    printh(msg, 'log.txt', true)
+    printh(msg, 'log.txt', false)
 end
 
+printh('', 'log.txt', true)
 log('== Initializing ==')
 left = 0
 right = 1
